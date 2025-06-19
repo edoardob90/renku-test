@@ -1,0 +1,57 @@
+bokeh==3.7.3
+    # via test-renku
+colorama==0.4.6 ; sys_platform == 'win32'
+    # via pytest
+contourpy==1.3.2
+    # via bokeh
+iniconfig==2.1.0
+    # via pytest
+jinja2==3.1.6
+    # via bokeh
+joblib==1.5.1
+    # via scikit-learn
+markupsafe==3.0.2
+    # via jinja2
+narwhals==1.43.1
+    # via bokeh
+numpy==2.3.0
+    # via
+    #   bokeh
+    #   contourpy
+    #   pandas
+    #   scikit-learn
+    #   scipy
+packaging==25.0
+    # via
+    #   bokeh
+    #   pytest
+pandas==2.3.0
+    # via bokeh
+pillow==11.2.1
+    # via bokeh
+pluggy==1.6.0
+    # via pytest
+pygments==2.19.1
+    # via pytest
+pytest==8.4.1
+    # via test-renku
+python-dateutil==2.9.0.post0
+    # via pandas
+pytz==2025.2
+    # via pandas
+pyyaml==6.0.2
+    # via bokeh
+scikit-learn==1.7.0
+    # via test-renku
+scipy==1.15.3
+    # via scikit-learn
+six==1.17.0
+    # via python-dateutil
+threadpoolctl==3.6.0
+    # via scikit-learn
+tornado==6.5.1 ; sys_platform != 'emscripten'
+    # via bokeh
+tzdata==2025.2
+    # via pandas
+xyzservices==2025.4.0
+    # via bokeh
